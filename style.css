@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:rgb(184, 213, 125);
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+    top:10vh;
+    left:36vw;
+    border:2px solid rgb(226, 226, 226);
+    border-radius:9px;
+    padding:20px;
+    margin-bottom: 20px;
+   
+}
+
+h2{
+    color:blueviolet;
+    font-family: monospace;
+    font-size:20px;
+    font-weight:800;
+}
+h2:hover{
+    color:blue;
+}
+
+img{
+    width:300px;
+    height:200px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    
+}
+
+div{
+   margin-top:12px; 
+}
+
+button{
+    margin-top:5px;
+    padding:4px;
+    border-radius:8px;
+    color:white;
+    background-color: rgb(2, 59, 2);
+}
+
+button:hover{
+    background-color:rgba(155, 174, 126, 0.226);
+    color:black;
+}
+
+#date-picker{
+    margin-top:5px;
+    background-color: rgba(84, 110, 101, 0.333);
+}
+
+input{
+    padding:5px;
+    border-radius:8px;
+    margin-right: 3px;
+}
